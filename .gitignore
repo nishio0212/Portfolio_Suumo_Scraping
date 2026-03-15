@@ -1,0 +1,26 @@
+# 収集済みデータ（大量CSVのため除外）
+01_OutputData/
+01_OutputData_1/
+01_OutputData_bk/
+
+# 前処理済みデータ
+02_PreprocessingData/
+
+# 開発履歴・バックアップ
+00_bk/
+
+# バックアップファイル
+*.bak
+
+# Python キャッシュ
+__pycache__/
+*.pyc
+*.pyo
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
